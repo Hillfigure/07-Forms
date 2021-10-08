@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend | Contact</title>
+
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kurale&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="trackday.html">Trackday</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Contact</h1>
+    </header>
+
+    <main> 
+        <form name="assignment_form" method="POST" data-netlify="true">
+            <label for="naam">Naam</label>
+            <input class="contact_form" type="text" name="naam">
+            <label for="email">E-mail</label>
+            <input class="contact_form" type="email" name="email">
+            <label for="message">Write your message here:</label>
+            <textarea class="contact_form" rows="4" cols="50" name="message"></textarea>
+            <input class="contact_form" type="submit" value="Send">
+        </form>
+    </main>
+
+</body>
+</html>
